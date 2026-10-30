@@ -1,0 +1,22 @@
+# basic-pitch must be installed separately with --no-deps (see README):
+# its metadata pins TensorFlow <2.15 on Python >=3.11, which has no wheels
+# for 3.12. We run its bundled ONNX model via onnxruntime instead.
+onnxruntime
+librosa
+mir-eval
+pretty-midi
+resampy<0.4.3
+scikit-learn
+scipy
+typing-extensions
+noisereduce
+music21
+soundfile
+gradio
+yt-dlp
+imageio-ffmpeg
+# Instrument separation and beat tracking (PyTorch; CPU build is fine):
+#   pip install torch torchaudio --index-url https://download.pytorch.org/whl/cpu
+demucs
+beat-this
+mido

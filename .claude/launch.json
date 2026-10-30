@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "transcriber-gui",
+      "runtimeExecutable": ".venv/Scripts/python.exe",
+      "runtimeArgs": ["-m", "transcriber.app", "--no-browser", "--port", "7860"],
+      "port": 7860
+    }
+  ]
+}
